@@ -1,6 +1,6 @@
 #ABOUT THIS APPLICATION
 
-The Aim of this Application is "Generic JavaScript Form Validation Functions "
+The Aim of this Application is "Generic JQuery Form Validation Functions "
 
 Here is the example fields I choose:
 
