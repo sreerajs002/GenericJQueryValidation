@@ -1,0 +1,101 @@
+body{
+	margin:0px;
+	margin:0px auto;
+	width:100%;
+	background-color:#FFFFCC;
+}
+
+
+/*for form elements*/
+form{
+	width:50%;
+	margin:50px 15% 10px 35%;
+}
+h1{
+	text-align: center;
+}
+ input[type="text"]{
+	width:50%;
+	height:30px;
+	margin:10px;
+}
+input[type="email"]{
+	height:30px;
+	width:50%;
+	margin:10px;
+}
+input[type="password"]{
+	width:50%;
+	height:30px;
+	margin:10px;
+}
+input[type="submit"]{
+	width:50%;
+	height:30px;
+	margin:0px 10px;
+	background-color: #0099CC;
+}
+div{
+	width:100%;
+	display:block;
+}
+label{
+margin: 0px 10px; 
+display:block !important;
+font-weight: bold;
+}
+p{
+	display:inline;
+}
+.valid{
+	color: green;
+}
+.invalid{
+	color:red;
+}
+.foc{
+	outline:2px solid green;
+
+}
+.foc1{
+	outline:2px solid red;
+}
+.foc2{
+	
+	outline:2px solid green;
+}
+span{
+	font-weight: bold;
+	margin:20px 10px;
+}
+hr{
+	visibility: hidden;
+}
+button{
+	width:50%;
+	height:30px;
+	margin:0px 10px;
+	background-color: #0099CC;
+}
+/* button animation*/
+.animate{
+-webkit-animation: myfirst 1s; /* Chrome, Safari, Opera */
+    animation: myfirst 1s;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0%   { margin-left:0px; top:0px;}
+    25%  { margin-left:20px; top:0px;}
+    50%  { margin-left:-20px; top:0px;}
+    75%  { margin-left:20px; top:0px;}
+    100% { margin-left:-20px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+     0%   { margin-left:0px; top:0px;}
+    25%  { margin-left:20px; top:0px;}
+    50%  { margin-left:-20px; top:0px;}
+    75%  { margin-left:20px; top:0px;}
+    100% { margin-left:-20px; top:0px;}
+}

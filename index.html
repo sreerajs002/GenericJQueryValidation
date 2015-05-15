@@ -1,0 +1,83 @@
+<!doctype HTML>
+<html>
+<head>
+	<meta name="description" content="pure js validations">
+    <meta name="keywords" content="js, validations, form">
+    <meta name="author" content="Raj"> 
+	<link rel="stylesheet" type="text/css" href="include/css/validation.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="include/js/validate.js"></script>
+
+</head>
+<body>
+			<h1>Sign Up with us !!</h1>
+
+	<form novalidate>
+		<div>
+			<label>Full Name</label>
+			<input type="text" name= "fullname" placeholder="Full Name" required="true" max="10" min="5">
+		</div>
+		<div>
+			<label>Nick Name <small>(optional)</small></label>
+			<input type="text" name= "Nick name" placeholder="Nick Name"  >
+		</div>
+		<div>
+			<label>Email</label>
+			<input type="email" name="email" placeholder="email" required="true">
+		</div>
+		<div>
+			<label>Secondary Email <small>(optional)</small></label>
+			<input type="email" name="email" placeholder="email" >
+		</div>
+		<div>
+			<label>Contact Number</label>
+			<input type="text" name= "mobile number" placeholder="Full Name"  class="number" max="10" required="true">
+		</div>
+		<div>
+			<label>Password</label>
+			<input name="password" type="password" placeholder="Password" min="6" max="10">
+		</div>
+		<div>
+			<label>Confirm Password</label>
+			<input name= "confirm" type="password" placeholder="Password"  class="confirm">
+		</div>
+		<div>
+			<span>Gender</span>
+			<input type="radio" name="sex" value="" >Male<input type="radio" name="sex" value="">Female
+		</div>
+		<hr>
+		<div>
+			<span>Areas of interest</span>
+			<input type="checkbox">C</input>
+			<input type="checkbox">CPP</input>
+			<input type="checkbox">C#</input>
+
+		</div>
+		<hr>
+		<div>
+			<span>marital status</span>
+			<input type="radio" name="mart" value="" >single<input type="radio" name="mart" value="">married
+		</div>
+		
+		<hr>
+		<div>
+			<span>Location</span>
+			<select name="area">
+				<option value="">Select your area</option>
+				<option value="kkd">Kakinada</option>
+				<option value="rjy">Rajahmandry</option>
+			</select>
+		</div>
+
+		<hr>
+		<div>
+			<label>User Name</label>
+			<input type="text" name= "User name" placeholder="User Name" required="true"  >
+		</div>
+		<input type="submit" value="signup">
+	</form>
+	
+</body>
+
+</html>
